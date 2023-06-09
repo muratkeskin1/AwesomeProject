@@ -38,7 +38,7 @@ const createRoutineMachineLayer = (props) => {
     draggableWaypoints: false,
     fitSelectedRoutes: false,
     showAlternatives: true,
-    router: L.Routing.graphHopper("0915b664-ad7d-4e29-97c0-1173263a372c", {
+    router: L.Routing.graphHopper("", {
       urlParameters: {
         "ch.disabled":true,
         vehicle: "car_delivery",
