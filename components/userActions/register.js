@@ -15,7 +15,7 @@ const RegisterScreen = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const url ="https://stajprojewebapi.azurewebsites.net/";
+  const url ="";
   const [isSuccessModalVisible, setIsSuccessModalVisible] = useState({
     show: false,
     message: ""
