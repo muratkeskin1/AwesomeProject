@@ -28,13 +28,13 @@ import {REACT_APP_LOCAL_API} from '@env'
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCJASe-uB1K2nEIdLjsEOylEpmaPxdRucY",
-  authDomain: "atmroute.firebaseapp.com",
-  projectId: "atmroute",
-  storageBucket: "atmroute.appspot.com",
-  messagingSenderId: "1095297508233",
-  appId: "1:1095297508233:web:2d78991483ac747329f758",
-  measurementId: "G-YZ1NNREHZ9"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 // Initialize Firebase
