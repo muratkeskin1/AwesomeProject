@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/5a10b990-317f-467d-8fd0-a7a2e0af39b3/resourceGroups/stajProje/providers/Microsoft.Web/sites/stajProjectReactNative",
+    "appService.deploySubpath": "."
+}

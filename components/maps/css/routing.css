@@ -1,0 +1,7 @@
+.leaflet-control-container .leaflet-routing-container {
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+    max-height: 100vh;
+    background-color:rgba(0, 0, 0, 0.177);
+}
