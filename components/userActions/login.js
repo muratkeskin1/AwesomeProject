@@ -17,7 +17,7 @@ const LoginPage = () => {
     text: '',
     show: false
   });
-  const url ="https://stajprojewebapi.azurewebsites.net/";
+  const url ="";
   const urlLocal ="https://localhost:44347/";
   const auth=getAuth();
   const handle2=async ()=>{
