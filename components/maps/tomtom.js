@@ -59,7 +59,7 @@ class MapTestTomTom extends Component {
   async getLocations() {
     var row = [];
     var marker = [];
-    const url ="https://stajprojewebapi.azurewebsites.net/";
+    const url ="";
     row.push(L.latLng(41.117308, 28.849629));
     marker.push(L.marker([41.117308, 28.849629]));
     await fetch(REACT_APP_WEB_API+`status`)
@@ -110,9 +110,9 @@ class MapTestTomTom extends Component {
       center: [51.505, -0.09],
       zoom: 5,
     });
-    const apikey = "21BJq7ApUADU72O1kwzV0eJLp8otzHqs";
+    const apikey = "";
     L.tileLayer(
-      " https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=b42991387703414f898c4eb4b42deb66",
+      " https://tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=",
       {
         attribution:
           '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -170,7 +170,7 @@ class MapTestTomTom extends Component {
     router.on("routesfound", async function (e) {
       var routes = await e.routes;
       var summary = routes[0].summary;
-      const url ="https://stajprojewebapi.azurewebsites.net/";
+      const url ="";
       fetch(
         REACT_APP_WEB_API+"savedetails/" +
           summary.totalDistance / 1000 +
@@ -259,7 +259,7 @@ class MapTestTomTom extends Component {
   base64string(blob) {
     var reader = new FileReader();
     var data;
-    const url ="https://stajprojewebapi.azurewebsites.net/";
+    const url ="";
     reader.readAsDataURL(blob);
     reader.onloadend = async function () {
       data = reader.result;
